@@ -182,9 +182,9 @@ namespace RestFulAPI_VK.Controllers
             }
             return Ok(user);
         }
-    }
 
-    public class PersonAPIResponse
+
+        public class PersonAPIResponse
         {
             public string Gender { get; set; }
             public Name Name { get; set; }
@@ -307,16 +307,17 @@ namespace RestFulAPI_VK.Controllers
             public string Phone { get; set; }
             public string Country { get; set; }
         }
-        
 
 
 
 
+       /* if you need someone for React\ReactNative , let me know :)*/
     }
-
-
-
 }
+
+
+
+
 
 
 
